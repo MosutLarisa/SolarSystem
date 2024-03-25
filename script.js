@@ -15,5 +15,12 @@ function draw() {
     circle(1200, 500, 110);
     fill("lightblue");
     circle(1140, 300, 80);
+    fill("purple");
+    circle(190, 280, 60);
+    fill("pink");
+    circle(320, 300, 40);
+    fill("lightblue");
+    circle(480, 270, 25);
+
 
 }
