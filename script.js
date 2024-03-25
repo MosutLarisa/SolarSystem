@@ -11,4 +11,9 @@ function draw() {
     ellipse(650, 350, 700, 300);
     ellipse(650, 350, 450, 250);
 
+    fill("green");
+    circle(1200, 500, 110);
+    fill("lightblue");
+    circle(1140, 300, 80);
+
 }
