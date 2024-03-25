@@ -22,5 +22,17 @@ function draw() {
     fill("lightblue");
     circle(480, 270, 25);
 
+    
+    fill("yellow");
+    circle(650, 350, 80);
+
+    fill("yellow");
+    for (let i = 0; i < 360; i += 45) {
+        push();
+        translate(650, 350);
+        rotate(radians(i));
+        triangle(-10, -50, 0, -90, 10, -50);
+        pop();
+    }
 
 }
